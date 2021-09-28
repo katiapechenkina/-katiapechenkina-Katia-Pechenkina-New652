@@ -5,14 +5,21 @@ font-family:'Open Sans',arial,sans-serif;
 font-size: 1em;
 color:#444
 font-weight:400;
-
 }
-/*Section title*/
-h1 {
+
+
+/*Name*/
+
+#name {
   font-size:3em;
   text-transform:uppercase;
   text-align:center;
   color:#33485e;
+  width:60%;
+  min-width:300px;
+  border:1px #33485e;
+  margin: 0 auto;
+
 }
 /*My occupation*/
 strong {
@@ -21,19 +28,25 @@ strong {
   font-size: 1.5em;
 }
 /*Section titles*/
-h2 {
+"sectionheader" {
 font-size:1.5em;
 text-transform:uppercase;
 background-color:#33485e;
 color:#FFF;
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 0px;
+margin-right: 0px;
+width:70%;
+min-width:300px;
 }
 /*Job title*/
-h3 {
+#jobtitle {
   font-size:1.5em;
   font-weight:600;
 }
 /*Job organization*/
-h5{
+#date{
   font-size:1em;
   font-weight:400;
   font-style:italic;
@@ -46,3 +59,8 @@ ul {
 li {
     font-size:1em;
 }
+
+ #organization{
+font-size:1.25em;
+
+ }
