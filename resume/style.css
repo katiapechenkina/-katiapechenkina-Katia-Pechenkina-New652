@@ -7,7 +7,12 @@ color:#444
 font-weight:400;
 }
 
-
+#container {
+  width:100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
+}
 /*Name*/
 
 #name {
@@ -35,7 +40,7 @@ font-weight:400;
 
 }
 /*Section titles*/
-.sectionheader{
+.sectionheader {
 font-size:1.5em;
 text-transform:uppercase;
 background-color:#33485e;
@@ -112,13 +117,7 @@ font-size:1.25em;
 
 }
 
-#container{
-  width:100%;
-  max-width: 1200px;
-  margin:0 auto;
-  padding-bottom: 50px;
 
-}
 
 .top {
   wifth:60%;
