@@ -70,12 +70,18 @@ min-width:300px;
 /*Job dates*/
 ul {
     font-size:1em;
+
 }
 /*Contact info,Skills, Education*/
 li {
     font-size:1em;
     text-align:center;
     display: inline;
+}
+
+.ul, li {
+  font-size:1em;
+  list-style-type: square;
 }
 
  #organization{
@@ -103,7 +109,7 @@ font-size:1.25em;
 
 }
 
-#degrees{
+.degrees {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -111,7 +117,7 @@ font-size:1.25em;
 
 }
 
-#do{
+.do {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
