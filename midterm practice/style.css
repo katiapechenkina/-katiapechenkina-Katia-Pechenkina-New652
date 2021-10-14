@@ -1,0 +1,43 @@
+#content{
+  width:900px;
+  max-width:900px;
+  margin: 0 auto;
+}
+
+#header{
+  margin-left: auto;
+  margin-right:auto;
+  width:100%;
+  max-width:900px;
+}
+
+
+}
+h1{
+  text-align:center;
+  font-size:2.5em;
+  font-family: Helvetica, sans-serif;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+p{
+  font-family: Georgia; serif;
+  font-size: 13px;
+}
+
+
+#image{
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+blockquote{
+  font-family: Georgia; serif;
+  font-size: 25px;
+}
