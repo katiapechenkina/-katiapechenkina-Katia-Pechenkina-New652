@@ -38,6 +38,12 @@ p{
 }
 
 blockquote{
-  font-family: Georgia; serif;
-  font-size: 25px;
+  font-style:italic;
+  font-size: 24px normal Helvetica;
+  margin-top:15px;
+  margin-bottom:15px;
+  color:red;
+  margin-left:50px;
+  padding-left:15px;
+  border-left:4px solid #ccc;
 }
