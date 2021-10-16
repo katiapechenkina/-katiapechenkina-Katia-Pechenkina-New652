@@ -10,7 +10,10 @@
   width:100%;
   max-width:900px;
 }
+#masthead{
+  width:900px
 
+}
 
 }
 h1{
@@ -38,8 +41,8 @@ p{
 }
 
 blockquote{
+  font-size: 30px normal Helvetica;
   font-style:italic;
-  font-size: 24px normal Helvetica;
   margin-top:15px;
   margin-bottom:15px;
   color:red;
