@@ -11,8 +11,10 @@
   max-width:900px;
 }
 #masthead{
-  width:900px
-
+  width:100%
+  margin-left:auto;
+  margin-right:auto;
+  max-width:1000px;
 }
 
 }
@@ -25,7 +27,9 @@ h1{
 #byline {
 font-family: Helvetica, sans-serif;
 font-size: 14px;
-font-style: italic;
+font-style: italic; 
+margin-top:15px;
+margin-bottom:15px;
 }
 
 p{
@@ -33,9 +37,12 @@ p{
   font-size: 13px;
 }
 
+h2{
+  padding-bottom: 0;
+}
 
 #image{
-  width:50%;
+  width:70%;
   margin-left:auto;
   margin-right:auto;
 }
