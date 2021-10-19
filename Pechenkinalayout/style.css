@@ -16,6 +16,11 @@
   margin-right:auto;
   max-width:1000px;
 }
+#headline{
+  font-family:Helvetica;sans-serif;
+  font-style:italic;
+  font-size:30px;
+}
 
 }
 h1{
@@ -27,7 +32,7 @@ h1{
 #byline {
 font-family: Helvetica, sans-serif;
 font-size: 14px;
-font-style: italic; 
+font-style: italic;
 margin-top:15px;
 margin-bottom:15px;
 }
