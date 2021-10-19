@@ -24,7 +24,7 @@
 p{
   font-family: Helvetica;Arial;serif;
   font-size:12px;
-  
+
 }
 #image{
   width:70%;
@@ -46,4 +46,8 @@ blockquote{
   margin-right:50px;
   padding-right:15px;
   border-right: 5px;
+}
+
+.col{
+  text-aling:center;
 }
