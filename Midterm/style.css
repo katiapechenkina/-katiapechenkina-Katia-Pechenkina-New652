@@ -1,0 +1,48 @@
+#masthead{
+  width:100%;
+  margin-left:auto;
+  margin-right: auto;
+  max-width:1500px;
+}
+#byline{
+  font-family:Helvetica;
+  font-style:italic;
+  font-size:15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#headline{
+  font-family: Helvetica;sans-serif;
+  font-size: 25px;
+}
+
+#subhead{
+  font-family: Helvetica;sans-serif;
+  font-size:20px;
+}
+p{
+  font-family: Helvetica;Arial;serif;
+  font-size:12px;
+}
+#image{
+  width:70%;
+  margin-left:auto;
+  margin-right: auto;
+}
+#image1{
+  width:100%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+blockquote{
+  font-size:40px;normal Helvetica;
+  font-style: italic;
+  color:red;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right:50px;
+  padding-right:15px;
+  border-right: 5px;
+}
