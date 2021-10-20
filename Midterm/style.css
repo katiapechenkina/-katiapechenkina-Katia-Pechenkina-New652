@@ -50,4 +50,12 @@ blockquote{
 
 .col{
   text-aling:center;
+  width:100%;
+  
+}
+.row{
+  padding-bottom: 50px;
+}
+.container{
+
 }
