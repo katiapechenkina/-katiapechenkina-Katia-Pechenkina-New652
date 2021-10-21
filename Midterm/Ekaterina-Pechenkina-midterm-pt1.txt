@@ -40,7 +40,6 @@ in the body section
 <div id="name"> </div>
 
 
-
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
 <div id="apples" class="fruit"> </div>

@@ -7,14 +7,14 @@
 #byline{
   font-family:Helvetica;
   font-style:italic;
-  font-size:15px;
+  font-size:20px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 #headline{
   font-family: Helvetica;sans-serif;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #subhead{
@@ -33,7 +33,6 @@ p{
 }
 #image1{
   width: 1200px;
-
 }
 
 blockquote{
@@ -47,7 +46,7 @@ blockquote{
   border-right: 5px;
 }
 
-.container{
+#container{
   text-aling:center;
   width:900px;
   margin:0 auto;
