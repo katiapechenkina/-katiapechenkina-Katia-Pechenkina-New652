@@ -4,8 +4,7 @@ Questions
 
 Google is the best search engine in the world.
 
-
-
+<a href="https://www.google.com/">Google</a>
 
 2.  Describe the purpose of a DIV tag.
 
@@ -21,7 +20,6 @@ Google is the best search engine in the world.
 
 <head>
 <link rel="stylesheet" href="style.css">
-
 
 </head>
 <body>
@@ -45,7 +43,7 @@ in the body section
 
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
-<div id="apples" class='fruit'> </div>
+<div id="apples" class="fruit"> </div>
 
 
 
@@ -54,10 +52,6 @@ in the body section
 .fruit{
 color:#000000
 }
-
-
-
-
 
 
 9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
@@ -78,6 +72,3 @@ Sans-serif is more modern and does not have the stroke at the edges of the lette
 
 12. Which of the following is a hexadecimal code?
 #FFCC33
-123,543,242
-101010101
--213
