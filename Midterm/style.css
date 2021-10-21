@@ -27,14 +27,13 @@ p{
 
 }
 #image{
-  width:70%;
+  width:900px;
   margin-left:auto;
   margin-right: auto;
 }
 #image1{
-  width:100%;
-  margin-left:auto;
-  margin-right: auto;
+  width: 1200px;
+
 }
 
 blockquote{
@@ -48,14 +47,8 @@ blockquote{
   border-right: 5px;
 }
 
-.col{
-  text-aling:center;
-  width:100%;
-  
-}
-.row{
-  padding-bottom: 50px;
-}
 .container{
-
+  text-aling:center;
+  width:900px;
+  margin:0 auto;
 }
