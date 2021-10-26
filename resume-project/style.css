@@ -1,9 +1,10 @@
 .navbar{
-
+padding:1px;
   display:flex;
   align-items: center;
   margin:20px;
   margin-top: 0;
+  background-color:#373833;
 }
 
 .navbar ul{
@@ -11,11 +12,11 @@
   display: flex;
   margin: 0;
   padding: 0;
-  color:black;
+  color:#FA2742;
 }
 
 .navbar ul li a {
-  color:black;
+  color:#FA2742;
   padding:30px;
   text-decoration: none;
   display: block;
@@ -36,6 +37,7 @@ h1{
   font-size: 16px;
   font-style: normal;
   font-family: sans-serif;Georgia;
+  color:#FA2742;
 }
 
 .social{
@@ -72,20 +74,19 @@ h2{
 }
 
 .button{
-  background-color: white;
+  background-color: #FA2742;
 border-radius: 15px;
 }
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  display: flex;
-  align-items: center;
+
+.container{
+  width:100%;
+}
+.col-sm{
+  text-align:center;
 }
 
-.row:after {
-  display:flex;
-  clear: both;
+.row{
+  padding-bottom:  50px;
 }
 
 @media screen and (max-width:600px){
@@ -98,7 +99,7 @@ border-radius: 15px;
   }
 }
 .footer {
-  background-color: #F1F1F1;
+  background-color: #373833;
   text-align: center;
   padding: 10px;
 }
@@ -119,5 +120,10 @@ top:auto;
 
 p1{
   text-align: center;
+}
 
+.container1{
+  background-color: #E6E2DD;
+  margin:auto;
+  max-width: 1500px;
 }
