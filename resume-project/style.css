@@ -69,22 +69,21 @@ h2{
   position:relative;
 }
 
-.btn{
+.button{
   background-color: white;
-
+border-radius: 15px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.column{
-  width:33.3%;
-}
-
-.row{
-  padding-bottom:  50px;
-  display: table;
-}
-
-.picture{
-  height: auto;
+.row:after {
+  display:flex;
+  clear: both;
 }
 
 @media screen and (max-width:600px){
@@ -100,4 +99,26 @@ h2{
   background-color: #F1F1F1;
   text-align: center;
   padding: 10px;
+}
+
+.fa fa-twitter{
+  color:black;
+}
+
+
+footer {
+  display: block;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #F1F1F1;
+    align-items: center;
+    width:100%;
+}
+
+p1{
+  text-align: center;
+  
 }
