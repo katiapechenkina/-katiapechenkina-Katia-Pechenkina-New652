@@ -1,9 +1,9 @@
 .navbar{
-  background-color:#F1F1F1;
+
   display:flex;
   align-items: center;
-
-
+  margin:20px;
+  margin-top: 0;
 }
 
 .navbar ul{
@@ -11,10 +11,11 @@
   display: flex;
   margin: 0;
   padding: 0;
+  color:black;
 }
 
 .navbar ul li a {
-  color: black;
+  color:black;
   padding:30px;
   text-decoration: none;
   display: block;
@@ -32,7 +33,7 @@
 h1{
   text-align: center;
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-family: sans-serif;Georgia;
 }
@@ -52,12 +53,13 @@ li{
 
 h2{
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   font-style: italic;
   font-family: sans-serif; Georgia;
+
 }
 #about{
-  background:#e3e1e1;
+
   padding-top: 90px;
   padding-bottom: 70px;
 }
@@ -101,24 +103,21 @@ border-radius: 15px;
   padding: 10px;
 }
 
-.fa fa-twitter{
+.social{
   color:black;
 }
 
-
 footer {
-  display: block;
-    position: fixed;
-    margin-bottom: 0px;
+top:auto;
     bottom: 0px;
     left: 0px;
     right: 0px;
     background-color: #F1F1F1;
     align-items: center;
-    width:100%;
+
 }
 
 p1{
   text-align: center;
-  
+
 }
