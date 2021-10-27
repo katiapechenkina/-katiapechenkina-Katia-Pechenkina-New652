@@ -1,9 +1,7 @@
 .navbar{
-padding:1px;
   display:flex;
   align-items: center;
   margin:20px;
-  margin-top: 0;
   background-color:#373833;
 }
 
@@ -12,11 +10,11 @@ padding:1px;
   display: flex;
   margin: 0;
   padding: 0;
-  color:#FA2742;
+  color:black;
 }
 
 .navbar ul li a {
-  color:#FA2742;
+  color:black;
   padding:30px;
   text-decoration: none;
   display: block;
@@ -40,12 +38,7 @@ h1{
   color:#FA2742;
 }
 
-.social{
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
+
 
 li{
   display: inline-block;
@@ -60,17 +53,12 @@ h2{
   font-family: sans-serif; Georgia;
 
 }
-#about{
-
-  padding-top: 90px;
-  padding-bottom: 70px;
-}
 
 .profilepic{
   width:140px;
   height:130px;
   border-radius: 100%;
-  align: center;
+  position: fixed;
 }
 
 .btn{
@@ -81,7 +69,7 @@ h2{
 .container{
   width:100%;
 }
-.col-sm{
+.col{
   text-align:center;
 }
 
@@ -113,6 +101,8 @@ p1{
   max-width: 1500px;
 }
 
-.icon-color{
-    color:#FA2742!important
-}
+
+
+.change-color {
+       color: red !important;
+               }
