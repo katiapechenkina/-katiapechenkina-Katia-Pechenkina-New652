@@ -110,8 +110,9 @@ p1{
 .change-color {
        color: red !important;
                }
-.bi-twitter{
-  background-color: color:#FA2742 !important;
+
+.bi.bi-twitter{
+  color: #fff;
 }
 
 .bi-linkedin{
