@@ -22,6 +22,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
   </head>
 
   <body>
@@ -35,10 +37,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page"href="#">Publications</a>
+          <a class="nav-link active" aria-current="page" href="#scrollspyHeading2">Publications</a>
             </li>
               <a class="nav-link" href="mailto:katia@umd.edu">Contact me</a>
 
@@ -61,25 +63,36 @@
      <div class="col-lg-6 mx-auto">
        <p class="lead mb-4"
 
-       <h2>I am a graduate student journalist at The Philip Merrill College of Journalism at The University of Maryland.<br>
-       <br>I have experience in writing for a college newspaper, anchoring, producing and editing video for a student-produced weekly news show. I was also a part of Democracy and the Informed citizen emerging journalist fellowship program. </p>
-   <h3>This fall I am writing about health in Washington D.C. area </h3><br>
-       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-         <a href="https://docs.google.com/document/d/1NCkLPTq3wVbyClGY9FDPjegcglmQYSwJsqWEvKJzIFA/edit?usp=sharingbutton" type="button" class="btn btn-primary btn-lg px-4 gap-3">Download resume</button></a>
+
+       <h2>I am a graduate student journalist at The Philip Merrill College of Journalism at The University of Maryland.</h2><br>
 
        </div>
      </div>
    </div>
 
-   <br>
-   <h2>Read some of my stories here:</h2>
-   <br>
+   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+   <h3 id="scrollspyHeading1">About me</h3>
+   <p>
+     <br><h5>I have experience in writing for a college newspaper, anchoring, producing and editing video for a student-produced weekly news show.
+       <br> I was also a part of Democracy and the Informed citizen emerging journalist fellowship program.
+ This fall I am writing about health in Washington D.C. area </h5></p>
+     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+       <a href="https://docs.google.com/document/d/1NCkLPTq3wVbyClGY9FDPjegcglmQYSwJsqWEvKJzIFA/edit?usp=sharingbutton" type="button" class="btn btn-primary btn-lg px-4 gap-3">Download resume</button></a>
+</div>
+
+<br>
 <br>
    <!-- Hero end-->
 
     <!-- Publications links  -->
 
-<br>
+<h4 id="scrollspyHeading2">Read some of my stories here</h4>
+<p>
+
+  <br>
+  <br>
+  <br>
                <div class="container">
                  <div class="row">
                    <div class="col">
@@ -88,6 +101,7 @@
           <img class="image" src="afro1.jpg"  max-width="500px" width="100%" >
           <a href="https://afro.com/parents-leaders-contend-covid-vaccine-for-children-will-keeps-schools-safer/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Read now</a>
                    </div>
+
                    <div class="col">
                      <h3>In addition to COVID concerns, D.C. braces for the flu</h3>
                      <p>While the country is experiencing the highest number of daily coronavirus deaths reported since the surge during last winter, flu season might be adding another challenge to an already overwhelmed United States healthcare system.</p>
@@ -113,9 +127,14 @@
                           <br>
                <img src="hithard.png"  max-width="500px" width="100%" >
                 <a href="https://issuu.com/sdcitytimes/docs/l20_legend_magazine__final_" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Read now</a>
+  </p>
                         </div>
                       </div>
                     </div>
+                  </div>
+
+
+
 
                     <style>
                     footer {
