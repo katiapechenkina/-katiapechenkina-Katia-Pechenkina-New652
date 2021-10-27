@@ -61,11 +61,8 @@ h3{
   font-family: sans-serif; Georgia;
 }
 
-.profilepic{
-  width:140px;
-  height:130px;
-  border-radius: 100%;
-  position: fixed;
+.image1{
+  border-radius: 50%;
 }
 
 .btn{
@@ -87,15 +84,6 @@ h3{
   align-items: center;
 }
 
-@media only screen and (max-width: 500px) {
-h2 {
-  padding-top: 50px;
-}
-  .navbar{
-    float: right;
-   display: block;
-  }
-
 p1{
   text-align: center;
 }
@@ -111,10 +99,25 @@ p1{
        color: red !important;
                }
 
-.bi .bi-twitter{
+.bi.bi-twitter{
   color:#FA2742;
 }
 
-.bi .bi-linkedin{
+.bi.bi-linkedin{
     color:#FA2742 !important;
+}
+
+.bi.bi-github{
+    color:#FA2742 !important;
+}
+
+
+@media only screen and (max-width: 500px) {
+h2 {
+  padding-top: 50px;
+}
+  .navbar{
+    float: right;
+   display: block;
+  }
 }
