@@ -111,10 +111,10 @@ p1{
        color: red !important;
                }
 
-.bi.bi-twitter{
-  color: #fff;
+.bi .bi-twitter{
+  color:#FA2742;
 }
 
-.bi-linkedin{
-    background-color: color:#FA2742 !important;
+.bi .bi-linkedin{
+    color:#FA2742 !important;
 }
