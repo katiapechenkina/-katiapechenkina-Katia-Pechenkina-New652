@@ -21,5 +21,27 @@ font-family: georgia, serif;
   font-size: 2em;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+}
 
+.caption{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+img{
+width:90%;
+  margin:0 auto;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footertext{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
 }
