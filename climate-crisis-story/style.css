@@ -2,7 +2,7 @@
   font-size: 3em;
   font-weight: 700;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Georgia', sans-serif;
 }
 
 .byline{
@@ -78,10 +78,10 @@ text-transform: uppercase;
 
 .overlay{
   position: absolute;
-  top:20%;
+  top:40%;
   width:100%;
   background:white;
-opacity:.7;
+opacity:.8;
 }
 
 .hero-hed{
