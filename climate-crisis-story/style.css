@@ -13,14 +13,21 @@
 }
 
 p{
-font-family: georgia, serif;
+font-family: 'Georgia', serif;
   line-height: 180%;
+  font-size: 1em;
 }
 
+p1{
+  font-family: 'Georgia', serif;
+  font-weight: lighter;
+  font-style: italic;
+}
 .chapterheadline{
   font-size: 2em;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+  color:  #A30000;
 }
 
 .caption{
@@ -96,14 +103,26 @@ font-size: .5em;
 .quote{
 font-family: 'Montserrat', sans-serif;
 color:#A30000;
-font-size:2em;
+font-size:1.5em;
 font-weight: 700;
 text-align: right;
 padding:15px 0 15px 0;
 border-top: 1px solid #A30000;
-border-bottom: 1px #A30000;
+border-bottom: 1px solid #A30000;
 margin-top:20px;
 margin-top:20px;
+}
+.quote1{
+  font-family: 'Montserrat', sans-serif;
+  color:#A30000;
+  font-size:1.5em;
+  font-weight: 700;
+  text-align: left;
+  padding:15px 0 15px 0;
+  border-top: 1px solid #A30000;
+  border-bottom: 1px solid #A30000;
+  margin-top:20px;
+  margin-top:20px;
 }
 
 .quote-attribution{
@@ -111,8 +130,14 @@ font-family: 'Montserrat', sans-serif;
   font-size:1em;
   font-weight: lighter;
   text-align: right;
-
 }
+.quote-attribution1{
+font-family: 'Montserrat', sans-serif;
+  font-size:1em;
+  font-weight: lighter;
+  text-align: left;
+}
+
 @media(max-width:650px){
   .hero-hed{
     font-size:1.5em;
