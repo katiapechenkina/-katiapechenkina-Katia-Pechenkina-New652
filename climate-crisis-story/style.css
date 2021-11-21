@@ -141,6 +141,26 @@ font-family: 'Montserrat', sans-serif;
   text-align: left;
 }
 
+/*Sidebar*/
+.sidebarcontainer{
+  border-bottom: 2px solid #A30000;
+  border-left: 3px solid #A30000;
+  border-right: 3px solid #A30000;
+  border-top: 3px solid #A30000;
+
+}
+.sidebarhed{
+  font-family: 'Georgia', sans-serif;
+  text-size:1em;
+  text-transform: uppercase;
+  background-color: #A30000;
+  text-align: center;
+  color: white;
+}
+ul{
+color:#A30000;
+}
+
 @media(max-width:650px){
   .hero-hed{
     font-size:1.5em;
