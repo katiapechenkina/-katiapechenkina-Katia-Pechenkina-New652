@@ -45,3 +45,27 @@ width:90%;
   color: white;
   text-align: center;
 }
+
+/*Tophat*/
+.nav-logo{
+color:#fff;
+margin:0 auto;
+font-weight:700;
+text-transform: uppercase;
+}
+
+.red{
+  color: #A30000;
+}
+
+/*Splash area*/
+.hero-container{
+  position:relative;
+  text-align: center;
+  color:#fff;
+}
+
+.hero-image{
+  midth:100%;
+  
+}
