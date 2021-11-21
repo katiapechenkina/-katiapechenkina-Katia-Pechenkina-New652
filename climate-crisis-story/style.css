@@ -140,13 +140,18 @@ font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
   text-align: left;
 }
-
+.container1{
+  width:90%;
+    margin:0 auto;
+}
 /*Sidebar*/
 .sidebarcontainer{
   border-bottom: 2px solid #A30000;
   border-left: 3px solid #A30000;
   border-right: 3px solid #A30000;
   border-top: 3px solid #A30000;
+  width:90%;
+    margin:0 auto;
 
 }
 .sidebarhed{
@@ -157,6 +162,7 @@ font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
 }
+
 ul{
 color:#A30000;
 }
