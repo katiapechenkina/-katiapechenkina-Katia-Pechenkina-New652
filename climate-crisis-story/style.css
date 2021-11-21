@@ -86,17 +86,20 @@ opacity:.7;
 
 .hero-hed{
 font-family:'Georgia', serif;
-font-size:3em;
+font-size:4em;
 color:#A30000;
 margin:0 auto;
 padding-bottom:10px;
 }
 
 .hero-sub{
-font-family:'Playfair Display', sans-serif;
+font-family:'Montserrat', serif;
+font-style: italic;
 font-size: .5em;
 }
-
+.hero-image1{
+  width:80%;
+}
 
 /*quote*/
 
