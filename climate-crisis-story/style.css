@@ -90,6 +90,29 @@ font-family:'Playfair Display', sans-serif;
 font-size: .5em;
 }
 
+
+/*quote*/
+
+.quote{
+font-family: 'Montserrat', sans-serif;
+color:#A30000;
+font-size:2em;
+font-weight: 700;
+text-align: right;
+padding:15px 0 15px 0;
+border-top: 1px solid #A30000;
+border-bottom: 1px #A30000;
+margin-top:20px;
+margin-top:20px;
+}
+
+.quote-attribution{
+font-family: 'Montserrat', sans-serif;
+  font-size:1em;
+  font-weight: lighter;
+  text-align: right;
+
+}
 @media(max-width:650px){
   .hero-hed{
     font-size:1.5em;
