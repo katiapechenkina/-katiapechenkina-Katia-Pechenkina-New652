@@ -209,4 +209,7 @@ a:hover{
     padding-left:20px;
     padding-right: 10px;
   }
+  .headline{
+    font-size: 1em;
+  }
 }
