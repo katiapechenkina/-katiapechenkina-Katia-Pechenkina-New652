@@ -202,14 +202,11 @@ a:hover{
   .hero-hed{
     font-size:1.5em;
   }
-  .hed{
-    font-size:2em;
-  }
   p{
     padding-left:20px;
     padding-right: 10px;
   }
   .headline{
-    font-size: 1em;
+    font-size: 0.5em;
   }
 }
