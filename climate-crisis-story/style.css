@@ -48,7 +48,7 @@ width:90%;
 }
 .footertext{
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Georgia', sans-serif;
   color: white;
   text-align: center;
 }
@@ -179,6 +179,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 ul1{
+  font-family: 'Georgia', sans-serif;
   text-align: center;
 }
 ul{
@@ -187,14 +188,14 @@ color:#A30000;
 a:link {
   color:#000;
   text-decoration: none;
+    border-bottom: 1px solid;
+}
+a:visited{
+  color:#FF2E2E;
 }
 a:hover{
   color:#A30000;
   border-bottom: none;
-  }
-  a:visited{
-    color:#FF2E2E;
-    border-bottom: 1px solid;
   }
 
 @media(max-width:650px){
