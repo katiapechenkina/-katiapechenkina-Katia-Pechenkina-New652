@@ -3,3 +3,28 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
+
+
+
+
+
+
+/*Hero image area*/
+.hero-container{
+  position:relative;
+  text-align: center;
+  color:#fff;
+}
+
+.hero-image{
+  midth:100%;
+}
+
+.overlay{
+  position: absolute;
+  top:40%;
+  width:100%;
+  background:white;
+opacity:.8;
+}
