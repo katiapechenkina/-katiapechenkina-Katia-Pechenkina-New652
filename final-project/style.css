@@ -4,10 +4,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
-
-
+.row{
+  padding-bottom:  50px;
+}
+.col{
+  text-align:center;
+}
 
 
 /*Hero image area*/
