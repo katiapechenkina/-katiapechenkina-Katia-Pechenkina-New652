@@ -80,5 +80,10 @@ color:red;
   border-bottom: 1px solid red;
   margin-top: 20px;
   margin-bottom: 20px;
+}
 
+p1{
+  font-family:'Georgia',sans-serif;
+  font-weight: lighter;
+  font-style: italic;
 }
