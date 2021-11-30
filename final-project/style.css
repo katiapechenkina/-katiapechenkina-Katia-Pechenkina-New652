@@ -1,7 +1,21 @@
 .headline{
-  font-size:3em;
+  font-size:2.5em;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Georgia', sans-serif;
+}
+
+
+.byline{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Georgia', sans-serif;
+  text-align: center;
+}
+.chapterheadline{
+  font-family: 'Georgia',sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .row{
@@ -11,6 +25,20 @@
   text-align:center;
 }
 
+p{
+  font-family: 'Montserrat', serif;
+  font-size:1em;
+  line-height: 180%;
+}
+
+.caption{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+.graphic{
+  width:90%;
+}
 
 /*Hero image area*/
 .hero-container{
@@ -21,6 +49,7 @@
 
 .hero-image{
   midth:100%;
+
 }
 
 .overlay{
@@ -29,4 +58,27 @@
   width:100%;
   background:white;
 opacity:.8;
+}
+
+.hero-hed{
+font-family:'Georgia', sans-serif;
+font-size:2.5em;
+margin:0 auto;
+padding-bottom:10px;
+color:red;
+}
+
+/*Quote*/
+.quote{
+  font-family: 'Georgia', serif;
+  color:red;
+  font-size:1em;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
