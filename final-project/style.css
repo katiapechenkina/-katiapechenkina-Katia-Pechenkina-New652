@@ -52,7 +52,18 @@ text-align: center;
 .graphic{
   width:100%;
 }
+.column {
+  float: left;
+  width: 50%;
+  background-color: lightblue;
 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /*Hero image area*/
 .hero-container{
 position: relative;
@@ -113,4 +124,10 @@ p1{
   font-style: italic;
   font-size: 1em;
   line-height: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
