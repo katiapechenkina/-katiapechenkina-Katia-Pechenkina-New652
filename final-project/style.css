@@ -16,25 +16,33 @@
   font-style: italic;
   text-align: center;
   font-size: 1.5em;
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.row{
-  padding-bottom:  50px;
 }
-.col{
-  text-align:center;
+.video{
+  align-items: center;
 }
-
 p{
   font-family: 'Montserrat', sans-sans-serif;
   font-size:1em;
   line-height: 180%;
 }
-.dropcap{
+span{
+  float:left;
   font-size: 6em;
   font-family: 'Montserrat', serif;
-  line-height: 0.65;
-  margin: 0.1em 0.1em 0.2em 0;
+  line-height: 85%;
+  color:red;
+}
+
+#content{
+  margin-left:auto;
+  margin-right:auto;
+    width:60%;
+
 }
 .caption{
   font-size: 1em;
@@ -42,19 +50,18 @@ p{
 text-align: center;
 }
 .graphic{
-  width:90%;
+  width:100%;
 }
 
 /*Hero image area*/
 .hero-container{
-  position:relative;
+position: relative;
   text-align: center;
   color:#fff;
+
 }
-
 .hero-image{
-  midth:100%;
-
+width:100%;
 }
 
 .overlay{
@@ -67,14 +74,26 @@ opacity:.8;
 
 .hero-hed{
 font-family:'Georgia', sans-serif;
-font-size:2.5em;
+font-size:3em;
 margin:0 auto;
 padding-bottom:10px;
 color:red;
 }
 
 /*Quote*/
-.quote{
+.quote1{
+  font-family: 'Georgia', serif;
+  color:red;
+  font-size:1em;
+  font-weight: 700;
+  text-align: right;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.quote2{
   font-family: 'Georgia', serif;
   color:red;
   font-size:1em;
@@ -85,10 +104,13 @@ color:red;
   border-bottom: 1px solid red;
   margin-top: 20px;
   margin-bottom: 20px;
+
 }
 
 p1{
   font-family:'Georgia',sans-serif;
   font-weight: lighter;
   font-style: italic;
+  font-size: 1em;
+  line-height: 2em;
 }
