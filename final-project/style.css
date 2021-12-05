@@ -95,7 +95,7 @@ color:lightblue;
 .quote1{
   font-family: 'Georgia', serif;
   color:red;
-  font-size:1em;
+  font-size:1.5em;
   font-weight: 700;
   text-align: right;
   padding: 15px 0 15px 0;
@@ -106,8 +106,8 @@ color:lightblue;
 }
 .quote2{
   font-family: 'Georgia', serif;
-  color:red;
-  font-size:1em;
+  color:blue;
+  font-size:1.5em;
   font-weight: 700;
   text-align: left;
   padding: 15px 0 15px 0;
