@@ -23,11 +23,6 @@
   background-color: lightblue;
 }
 
-}
-.video{
-  align-items: center;
-  width:100%;
-}
 p{
   font-family: 'Montserrat', sans-sans-serif;
   font-size:1em;
@@ -167,5 +162,18 @@ text-align:center;
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+  .hero-hed{
+    font-size:1.5em;
+  }
+  p{
+    padding-left:20px;
+    padding-right: 10px;
+  }
+  .headline{
+    font-size: 0.5em;
+  }
+  iframe{
+    width:100%;
   }
 }
