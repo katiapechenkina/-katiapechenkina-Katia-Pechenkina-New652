@@ -161,14 +161,18 @@ text-align:center;
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 80%;
   }
   .hero-hed{
-    font-size:1.5em;
+    font-size:1em;
+  }
+  .overlay{
+    width:80%;
   }
   p{
     padding-left:20px;
     padding-right: 10px;
+    width:100%;
   }
   .headline{
     font-size: 0.5em;
