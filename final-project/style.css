@@ -19,6 +19,7 @@
   width:60%;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px 10px 10px 10px;
   background-color: lightblue;
 }
 
@@ -64,6 +65,14 @@ text-align: left;
 img{
   width:100%;
 }
+.nav-logo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color:red;
+  margin:0 auto;
+  font-weight:700;
+  text-transform: uppercase;
+}
 .row:after {
   content: "";
   display: table;
@@ -82,7 +91,7 @@ width:100%;
 
 .overlay{
   position: absolute;
-  top:40%;
+  top:50%;
   width:100%;
   background:red;
 opacity:.8;
@@ -92,37 +101,55 @@ opacity:.8;
 font-family:'Georgia', sans-serif;
 font-size:3em;
 margin:0 auto;
-padding-bottom:10px;
+padding-top: 20px;
+padding-bottom:20px;
 color:white;
 }
 
 /*Quote*/
 .quote1{
-  font-family: 'Georgia', serif;
-  color:red;
+  font-family: 'Helvetica', serif;
+  color:#982fd0;
   font-size:1.5em;
   font-weight: 700;
   text-align: right;
-  padding: 15px 0 15px 0;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #982fd0;
+  border-bottom: 1px solid #982fd0;
   margin-top: 20px;
   margin-bottom: 20px;
+    font-style:italic;
 }
 .quote2{
-  font-family: 'Georgia', serif;
-  color:red;
+  font-family: 'Helvetica', serif;
+  color:#3083cf;
   font-size:1.5em;
   font-weight: 700;
   text-align: left;
-  padding: 15px 0 15px 0;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #3083cf;
+  border-bottom: 1px solid #3083cf;
   margin-top: 20px;
   margin-bottom: 20px;
-
+    font-style:italic;
+}
+.quote-attribution1{
+font-family:'Helvetica', serif;
+color:#982fd0;
+font-size:0.7em;
 }
 
+.quote-attribution2{
+  font-family: 'Helvetica', serif;
+  color:#3083cf;
+  font-size:0.7em;
+}
+.footertext{
+  color:white;
+  text-align: center;
+  font-family:'Georgia',sans-serif;
+
+}
 p1{
   font-family:'Georgia',sans-serif;
   font-weight: lighter;
