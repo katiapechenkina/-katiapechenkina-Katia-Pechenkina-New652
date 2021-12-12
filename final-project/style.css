@@ -167,7 +167,8 @@ text-align:center;
     font-size:1em;
   }
   .overlay{
-    width:80%;
+    width:100%;
+    top:30%;
   }
   p{
     padding-left:20px;
