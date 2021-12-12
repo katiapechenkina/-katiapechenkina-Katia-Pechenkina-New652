@@ -159,7 +159,7 @@ text-align:center;
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .column {
     width: 80%;
   }
@@ -179,5 +179,9 @@ text-align:center;
   }
   iframe{
     width:100%;
+  }
+  .navbar{
+    float: right;
+   display: block;
   }
 }
